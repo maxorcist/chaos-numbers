@@ -4,7 +4,6 @@ var ctx = canvas.getContext("2d");
 var points = [];
 var pos = [300, 300];
 var travel = 0.5;
-console.log(travel)
 
 ctx.fillStyle = "#FF0000";
 var draw = (x, y) => {
